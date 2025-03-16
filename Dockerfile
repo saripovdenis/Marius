@@ -16,5 +16,8 @@ COPY . .
 # Expose the port (not needed for a bot, but good practice)
 EXPOSE 3000
 
+# Build the project (creates "dist" folder)
+RUN npm run build
+
 # Start the bot
 CMD ["npm", "run", "start"]
