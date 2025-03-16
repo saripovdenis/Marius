@@ -3,7 +3,7 @@ name: Deploy Marius Bot
 on:
   push:
     branches:
-      - main  # Deploys when code is pushed to "main" branch
+      - master  # Deploys when code is pushed to "main" branch
 
 jobs:
   deploy:
